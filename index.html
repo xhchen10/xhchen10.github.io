@@ -22,14 +22,12 @@
               </p>
               <p>I am a master student at <a href="http://en.ustc.edu.cn/">University of Science and Technology of China</a>, advised by Prof. <a href="http://staff.ustc.edu.cn/~zwxiong/">Zhiwei Xiong</a>.
               </p>
-	<p> I obtained my bachelor's degree at <a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a> from 2010 to 2014. I received research training at <a href="http://english.wnlo.hust.edu.cn/">Wuhan National Laboratory for Optoelectronics</a> (HUST), under the supervision of Prof. <a href="http://english.wnlo.hust.edu.cn/info/1052/1536.htm">Shanqun Zeng</a>.
-	    </p>
-		<p>I am looking for a Ph.D. position.</a>.
-              </p>		    
+	<p> I obtained my bachelor's degree at <a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a> from 2010 to 2014. I received research training at <a href="http://english.wnlo.hust.edu.cn/">Wuhan National Laboratory for Optoelectronics</a> (HUST), under the supervision of Prof. <a href="http://english.wnlo.hust.edu.cn/info/1052/1536.htm">Shaoqun Zeng</a>.
+	    </p>	    
               <p style="text-align:center">
                 <a href="mailto:xhchen10@mail.ustc.edu.cn">Email</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/xhche10/">Github</a>
+                <a href="https://scholar.google.com/citations?user=aH88j3sAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/xhchen10/">Github</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -49,49 +47,38 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+          <tr onmouseout="stainnorm_stop()" onmouseover="stainnorm_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/nerf_supervision.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nerf_supervision.jpg' width="160">
+                <div class="two" id='stainnorm_image'>
+                  <img src='images/stainnorm_after.jpg' width="160"></div>
+                <img src='images/stainnorm_before.jpg' width="160">
               </div>
               <script type="text/javascript">
-                function nerfsuper_start() {
-                  document.getElementById('nerfsuper_image').style.opacity = "1";
+                function stainnorm_start() {
+                  document.getElementById('stainnorm_image').style.opacity = "1";
                 }
 
-                function nerfsuper_stop() {
-                  document.getElementById('nerfsuper_image').style.opacity = "0";
+                function stainnorm_stop() {
+                  document.getElementById('stainnorm_image').style.opacity = "0";
                 }
-                nerfsuper_stop()
+                stainnorm_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://waymo.com/research/block-nerf/">
-                <papertitle>NeRF-Supervision: Learning Dense Object Descriptors from Neural Radiance Fields</papertitle>
-              </a>
+              <papertitle>An unsupervised style normalization method for cytopathology images</papertitle>
               <br>
-              <a href="https://yenchenlin.me/">Lin Yen-Chen</a>, 
-              <a href="http://www.peteflorence.com/">Pete Florence</a>, 
-              <strong>Jonathan T. Barron</strong>,  <br>
-              <a href="https://scholar.google.com/citations?user=_BPdgV0AAAAJ&hl=en">Tsung-Yi Lin</a>, 
-              <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto Rodriguez</a>,
-              <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>
+	      <strong>Jonathan T. Barron</strong>
+	      Jingya Yu, Shenghua Cheng, Xiebo Geng, Sibo Liu, Wei Han, Junbo Liu, Li Chen, Xiuli Liu,
+              <a href="http://english.wnlo.hust.edu.cn/info/1052/1536.htm">Shaoqun Zeng</a>,
               <br>
-              <em>ICRA</em>, 2022  
+              <em>Computational and Structural Biotechnology Journal</em>, 2021  
               <br>
-							<a href="http://yenchenlin.me/nerf-supervision/">project page</a> / 
-							<a href="https://arxiv.org/abs/2203.01913">arXiv</a> / 
-							<a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> /
-							<a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> / 
-							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				
+              <a href="https://www.sciencedirect.com/science/article/pii/S2001037021002634">paper</a>
               <p></p>
-              <p>NeRF works better than RGB-D cameras or multi-view stereo when learning object descriptors.</p>
+              <p>This style normalization method not only helps downstream model genrealize better, but also improve the visual experience of pathologists.</p>
             </td>
-          </tr>
+          </tr> 
       </td>
     </tr>
   </table>
